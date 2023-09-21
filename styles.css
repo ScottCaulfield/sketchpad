@@ -1,0 +1,32 @@
+* {
+    /* border: 1px;
+    border-style: solid;
+    border-color: red; */
+}
+
+.header {
+    display: flex;
+    background-color: blue;
+    height: 100px;
+}
+
+#grid-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    
+}
+
+.column {
+    /* flex: 1; */
+}
+
+.row {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background: white;
+    text-align: center;
+}
