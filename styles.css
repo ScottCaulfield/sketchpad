@@ -4,29 +4,36 @@
     border-color: red; */
 }
 
+body {
+    background-color: lightgray;
+}
+
 .header {
-    display: flex;
+    /* display: flex; */
     background-color: blue;
     height: 100px;
 }
 
+.footer {
+    /* display: flex; */
+    background-color: #113c63;
+    height: 100px;
+}
+
 #grid-container {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    padding: 100px;
-    
-}
-
-.column {
+    display: grid;
+    width: 500px;
+    height: 500px;    
     /* flex: 1; */
+    /* align-items: center;
+    justify-content: center; */
+    padding: 100px;
 }
 
-.row {
-    border: 1px;
+.cell {
+    /* border: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: black; */
     background: white;
     text-align: center;
 }
